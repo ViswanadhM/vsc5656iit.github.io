@@ -1,0 +1,104 @@
+
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+}
+#intro{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#name {
+
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+.row {
+    display: table;
+}
+
+.details a{
+	color: #fff;
+}
+.resume {
+	background-color: rgba(232,53,86,1);
+padding: 3em;
+
+}
+.skills {
+background-color: rgba(64,138,141,1);
+padding: 3em;
+}
+
+.hobbies {
+background-color: #d1c825;
+padding: 3em;
+}
+.about_me{
+	text-align: center;
+	font-family: 'Lobster', 'cursive';
+	font-size: 18px;
+	line-height: 30px;
+	background: #f5f4f4;
+	margin: 0px;
+	padding: 1em;
+	}
+.my_pic{
+	background-image: url(../my_pic.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 75%;
+	background-size: cover;}
+
+#name h1{
+	color:.details  #000033;
+
+}
+#interests {
+	width: 100%;
+	background: #f5f4f4;
+	font-family: 'Lora', 'serif';
+	color: #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#im{
+	width: 95%;
+	position: absolute;
+	/*height: 100%;*/
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url("music-is-life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#interests h3{
+	font:italic 18px/20px Georgia, Times, 'Times New Roman', serif;
+}
+#interests_1{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.artist{
+	border-bottom: 1px solid;
+	padding: 10px 50px 10px 0px;
+	width: 60%;
+}
+.song {
+	border-bottom: 1px solid;
+	padding-left: 50px;
+}
+	
+#interests_2 {
+	margin-top: 50px;
+}
