@@ -1,9 +1,15 @@
 ---
-layout: default
 permalink: /blog/
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+<div class="home container-fluid">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -22,3 +28,7 @@ permalink: /blog/
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+</body>
+
+</html>

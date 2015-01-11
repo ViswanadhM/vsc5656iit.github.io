@@ -503,3 +503,64 @@ ul.banner-social-buttons {
         margin-bottom: 0;
     }
 }
+
+
+/*styling for blog*/
+.home{
+background-image: url(../images/blog/blog-background.jpg);
+}
+.page-heading{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #E0FFFF;
+}
+.post-list{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.post-meta{
+    font-size: 17px;
+}
+.post-list h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.post-list li{
+    padding: 10px;
+}
+.post-list a{
+    color: white;
+    font-size: 20px;
+}
+.rss-subscribe{
+    color: white;
+}
+.rss-subscribe a{
+    color: white;
+    font-style: italic;
+}
+@media(min-width:992px) {
+   .page-heading{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 50px;
+   }
+   .post-meta{
+    font-size: 22px;
+    }
+   .post-list{
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .post-list h2{
+    margin: 15px 0;
+   }
+   .post-list a{
+    font-size: 36px;
+   }
+}
