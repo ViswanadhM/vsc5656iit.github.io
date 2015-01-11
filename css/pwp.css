@@ -44,8 +44,6 @@ header {
     background-color: #222;
 }
 
-
-
 .navbar-default .navbar-toggle {
     border-color: #fed136;
     background-color: #fed136;
@@ -65,6 +63,10 @@ header {
     font-size: 23px;
     color: #fed136;
 }
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+ color: #fed136;
+ background-color: black;   
+}
 .navbar-default .nav li a{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: black;
@@ -79,7 +81,9 @@ border-color: rgba(255,255,255,.02);
 .navbar-default .nav li a{
     color: white;    
 }
-
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
+    color: #fed136;    
+    }
 
 /*header*/
 header .intro-text .intro-lead-in{
@@ -108,24 +112,16 @@ header .intro-text {
     background-color: transparent;
     }
     
-    /*css class for Javascript effects*/
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #222;
-    }
-    /*end of css class for javascript effects*/
-
     .navbar-default .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
     text-shadow: 5px 5px 5px rgb(90, 79, 79);
     color: black;    
     }
-
-/*css class for Javascript effects*/
-    .navbar-default.top-nav-collapse .navbar-brand{
-        color: #fed136;
-    }    
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: black;
+    background-color: rgba(84,84,84,.5);   
+    } 
 
     .navbar-default .nav li{
     font-size: 20px;
@@ -135,19 +131,29 @@ header .intro-text {
     line-height: 32px;
     color: #393939;
     }
+    .navbar-default .nav li a:hover, .navbar-default .nav li a:focus{
+    background-color: rgba(84,84,84,.5);    
+    color: black;}
 
     /*css class for Javascript effects*/
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #222;
+    }
+    .navbar-default.top-nav-collapse .navbar-brand{
+        color: #fed136;
+    }
     .navbar-default.top-nav-collapse .nav li a{
         color: white;
     }   
-    .navbar-default .nav li a:hover{
-    background-color: rgba(84,84,84,.5)
+    .navbar-default.top-nav-collapse .nav li a:hover,.navbar-default.top-nav-collapse .nav li a:focus{
+    color: #fed136;
+    background-color: transparent;
     }
-
-    /*.navbar-right {
-        margin-right: -40px;
-    }*/
-
+    .navbar-default.top-nav-collapse .navbar-brand:hover{
+    background-color: black;   
+    }
+    
 /*header*/
 
 header .intro-text .intro-lead-in{
