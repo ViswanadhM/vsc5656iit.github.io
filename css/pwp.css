@@ -481,6 +481,13 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
+
+/*styling for skills*/
+#skills{
+    background-color: #F0F8FF;
+}
+/*styling for contact*/
+
 #contact {
     background-color: #f7f7f7;
 }
