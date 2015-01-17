@@ -190,7 +190,7 @@ header .intro-text {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid grey;
+    border: 2px solid #808080;
     border-radius: 35px;
     font-size: 40px;
     /*color: #fff;*/
@@ -200,7 +200,7 @@ header .intro-text {
     transition: background .3s ease-in-out;*/
 }
 .intro-text a:hover{
-	background-color: grey;
+	background-color: #808080;
 	opacity:0.5;
 }
 
