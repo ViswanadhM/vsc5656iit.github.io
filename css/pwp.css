@@ -484,13 +484,13 @@ section h3.section-subheading {
 
 /*styling for skills*/
 #skills{
-    background-color: rgb(123, 113, 113);
+    background-color: #808080;
     color: white;
 }
 /*styling for contact*/
 
 #contact {
-    background-color: #f7f7f7;
+    background-color: #F0F0F0;
 }
 #contact img {
     margin: 0 auto;
@@ -518,6 +518,13 @@ ul.banner-social-buttons {
     }
 }
 
+/* styling for team */
+
+#team{
+    height: 70vh;
+    /*width: 100%;*/
+    background-color: #ecf0f1;
+}
 
 /*styling for blog*/
 .home{
